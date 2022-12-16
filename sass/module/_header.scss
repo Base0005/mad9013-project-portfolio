@@ -1,0 +1,88 @@
+header{
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: grid;
+    align-items: center;
+}
+
+.navbar_davis{
+    text-align: center;
+}
+
+.navbar_option{
+    display: grid;
+    padding-top: 0.5rem;
+    padding-left: 0;
+    text-align: center;
+}
+
+li{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    list-style: none;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    color: white
+}
+
+.material-symbols-outlined {
+    vertical-align: -3px;
+}
+
+.chosen{
+font-weight: 700;
+}
+
+.chosen:hover{
+background-color: black;
+}
+
+@media only screen and (min-width: 60em){
+    .navbar{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        align-items: center;
+    }
+    .navbar_davis{
+        text-align: left;
+    }
+    .navbar_option{
+        display: grid;
+        grid: template rows 0; 
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+
+    header a:hover{
+        color: grey;
+        background-color: black !important;
+    }
+
+    .material-symbols-outlined {
+        background-color: black !important;
+    }
+
+    li:hover{
+        background-color: black!important;
+    }
+    .chosen:hover{
+        background-color: black !important;
+    }
+}

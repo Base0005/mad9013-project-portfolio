@@ -1,0 +1,64 @@
+footer{
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    display: grid;
+}
+
+.footer_option{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-left: solid;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: white
+}
+
+.footer_details{
+    padding:0;
+}
+
+.copyright{
+    background-color: black;
+}
+.copyright:hover{
+    background-color: black !important;
+}
+@media only screen and (min-width: 60em){
+    footer{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    footer a:hover{
+        color: grey;
+    }
+    .footer_navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer_details{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    li.sacrifice :hover{
+        background-color: #fafafa;
+        color: grey;
+    }
+
+    .copyright:hover{
+        background-color: black !important;
+    }
+}

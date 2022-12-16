@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+
+body video{
+    display: block;
+    margin: 0 auto;
+}
+
+.video{
+    border-top: solid white;
+    background-color: black;
+    video {
+        width: min(100%, 50rem);
+    }
+}
+
+
+.sub_title{
+    text-align: center;
+}
+
+.intro_text{
+    padding: 1.5rem;
+    font-size: x-large;
+    text-align: center
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.card{
+    background-color: white;
+    border-radius: 0.313rem;
+    box-shadow: 0 .25rem .5rem #0002;
+    height: auto;
+}
+
+.card:hover{
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.card__img {
+    padding: 1rem;
+}
+
+.card__img img{
+    width: 100%;
+}
+
+.card__img_advent{
+padding: 1rem;
+}
+
+.card__img_advent img{
+    background-color: black;
+    padding: 1rem;
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.card__img_reddit img{
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.card__img iframe{
+    width: 100%;
+    height: 100%;
+}
+.card__title{
+    text-align: center;
+}
+
+.JS__title{
+    text-align: center;
+    padding-top: 2.5rem ;
+}
+
+.card__text{
+    padding: 1.5rem;
+    font-size: x-large;
+    text-align: center;
+}
+
+@media only screen and (min-width: 60em){
+
+}
+
+/*----Contact Form----*/
+
+
+
+.contact_container{
+    background: rgba(255, 255, 255, 1);
+    background: linear-gradient(rgba(95, 95, 95, 0.9), rgba(95, 95, 95, 0.9)),url(../image/Drip\ Logo\ Pattern.jpg);
+    background-size: 20%;
+    border-radius: 1.5rem;
+    margin: 1.5rem;
+    box-shadow: 0 .25rem 1rem #000;
+}
+
+.contact_wrap{
+padding: 1.5rem;
+margin: 1.5rem;
+box-shadow: 0 .25rem 1rem #0002;
+display: grid;
+}
+
+.contact_form{
+    padding: 3rem 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+
+
+input, textarea{
+width: 100%;}
+
+
+@media only screen and (min-width: 60em){
+    .contact_form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+}
